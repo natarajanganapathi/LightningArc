@@ -38,8 +38,8 @@ jobs:
       matrix:
         dotnet-version: [10.0.x]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
         with:
           repository: falcon-architecture/gh-actions
           ref: main
@@ -68,8 +68,8 @@ jobs:
     env:
       ACTIONS_STEP_DEBUG: ${{ github.event.inputs.debug }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
         with:
           repository: falcon-architecture/gh-actions
           ref: main
@@ -93,8 +93,8 @@ jobs:
         languages: ["csharp"]
         dotnet-version: ["10.0.x"]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
         with:
           repository: falcon-architecture/gh-actions
           ref: main
@@ -128,8 +128,8 @@ jobs:
         languages: ["csharp"]
         dotnet-version: ["10.0.x"]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
         with:
           repository: falcon-architecture/gh-actions
           ref: main
@@ -154,10 +154,10 @@ jobs:
       matrix:
         dotnet-version: [10.0.x]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: main
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           repository: falcon-architecture/gh-actions
           ref: main
@@ -186,8 +186,8 @@ jobs:
       matrix:
         dotnet-version: [10.0.x]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
         with:
           repository: falcon-architecture/gh-actions
           ref: main
